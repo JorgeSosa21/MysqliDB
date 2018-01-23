@@ -8,7 +8,7 @@ $mysqliDB = new MyslqiDB("query", "format", "parameters");
 
 Example:
 
-$user_name = "Jorge";
+$user_name = "Jorge";</br>
 $query = "SELECT * FROM USER WHERE NAME = ?";
 $format = 's';
 $parameters = array($user_name);
