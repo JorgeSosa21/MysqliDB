@@ -6,8 +6,6 @@
 		const PASSWORD = '';
 		const DATABASE = 'test';
 		
-		private $uselessVariable;
-		
 		public function __construct($query, $formato, $parametros){
 			$this->query = $query;
 			$this->parametros = $parametros;
